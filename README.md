@@ -1,6 +1,6 @@
 # TCH-Code
 Implemented on: MATLAB
-<img src="./in_out.jpg"> 
+<img src="./in_out.jpg" width="200"> 
 1. The script/program initially captures the image from a webcam (IP/NON-IP both codes attached) and pre-processes the image, by applying median noise filters.
 2. Program then 'segregates' the image in RGB to individual planes. (This heavily affects identification of yellow/light color straws because the fundamental process of rgb2gray doesn't capture those)
 3. After applying edge detection with parameterized 'fudge factor', the script creates 2 'structuring elements' for the 'dilator'.
